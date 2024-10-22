@@ -1,0 +1,70 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
+}
+
+header
+{
+    min-height: 450px;
+    background-image: url(../img/reparation.jpg);
+}
+
+header ul li {
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+header nav a {
+    color:blanchedalmond;
+    text-decoration: none;
+    display: block;
+    padding: 18px 16px;
+}
+
+header nav {
+    width: 100%;
+    /* position: fixed; */
+    padding: 18px 20px;
+    background-color: rgb(202, 149, 149);
+    display: flex;
+    justify-content: space-between;
+    opacity: 0,9;
+}
+
+.image img
+{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+}
+h1
+{ 
+  text-align: center;  
+  color: antiquewhite;
+    }
+h2 {
+    text-align: center;
+}
+
+
+section#presentation {
+background-color: gray;
+padding: 10px 0 100px 0;
+}
+
+.customers-img {
+    display:flex;
+    justify-content: space-between;
+    border-color: blueviolet;
+}
