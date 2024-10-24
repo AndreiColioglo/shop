@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/formulaire_de_retour.css">
+    <title>Formulaire de retour</title>
+</head>
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+    <header>
+        <nav>
+            <div class="image">
+                <a href="#"><img src="./img/Logo.png" alt="">
+                </a>
+            </div>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Liste de prduits</a></li>
+                    <li><a href="#">SAV</a></li>
+                </ul>
+        </nav>
+        <h1>Formulaire de retour</h1>
+        <section>
+            <h2>Veuillez remplir le formulaire</h2>
+            <div class="montre">
+                <img src="./img/formulaire.jpg" alt="" width="300">
+                <div class="form-wrap">
+                <label for="lastname">Nom</label><input type="text" id="Nom" required>
+                    <label for="name">Prenom</label><input type="text" id="Prenom" required>
+                    <label>Adresse mail<input type="email" required></label>
+                    <label for="Téléphonie">Téléphone</label><input type="number">
+                    <label for="liste">Catégorie produit</label>
+                    <select name="Catégorie">
+                        <option>Choissisez la catégorie</option>
+                        <option value="Informatique"></option>
+                        <option value="">Téléphonie</option>
+                        <option value="">Electroménager</option>
+                        <option value="">Jouets</option>
+                        <option value="">Téléviseur</option>
+                        <option value="">Audio</option>
+                    </select>
+                    <label for="title">Marque</label><input type="text">
+                    <label for="title">Modele</label><input type="text">
+                    <label for="subject">Remarques ou explications</label><textarea name="subject" id="subject" style="height:170px"></textarea>
+                    <button type="submit">Enovyer</button>
+                    </div>
+                 </div>
+            
+        </section>
+        <h2>Nous contacter</h2>
+        <p>Adresse mail : contact@mail.com</p>
+        <p>Téléphone : 01 23 45 67 89</p>
+    </div>
+        <div class="footer"><b>© 2024 - 10MENTION WEB</b></div>
+    </div>
+</body>
+</html>
